@@ -1,3 +1,101 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+
+body {
+	background-color: #350816;
+	text-align: left;
+}
+
+nav {
+	background-color: #f78f23;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+  a {
+  	width: 100px;
+  	text-decoration: none;
+  	text-align: center;
+  	color: #350816;
+  	display: block;
+ 	float:left;
+ 	padding: 35px;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 13px;
+  }
+
+ a:hover{
+ 	background-color: #ecefbd;
+ }
+
+ 
+h1 {color: #f78f23;
+	font-family: "Luckiest Guy", sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {color: #f78f23;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+h3 {color: #ecefbd;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.copy {
+	color:#ecefbd;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	background-color: none;
+	padding: 1em;
+
+}
+
+
+.card {
+	width: 150px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 10px;
+	background-color: #f78f23;
+	display: inline-block;
+	float: left;
+	margin: 8%;
+
+}
+
+footer {
+	color: #350816;
+	font-size: 11px;
+	font-family: sans-serif;
+	background-color:#f78f23;
+	padding: 12px;
+	text-align: center;
+}
+
+.name {
+	color: #ecefbd;
+}
