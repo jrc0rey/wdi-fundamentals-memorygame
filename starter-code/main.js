@@ -9,7 +9,7 @@ var createCards= function(){
 
 var gameBoard= document.getElementById('gameBoard')
 
-for (i=0; i<4; i++1 ){
+for (i=0; i<4; i++){
 	var cardDiv= document.createElement('div');
 	cardDiv.className = 'card'
 	gameBoard.appendChild(cardDiv);
@@ -18,6 +18,8 @@ for (i=0; i<4; i++1 ){
 }
 
 createCards();
+
+
 
 
 /*if (cardOne === cardTwo){

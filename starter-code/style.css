@@ -67,9 +67,8 @@ h3 {color: #ecefbd;
 .board {
 	height: 50%;
 	width: 50%;
-	background-color: black;
-	display: inline-block;
 	background-color: none;
+	display: inline-block;
 	padding: 1em;
 
 }
